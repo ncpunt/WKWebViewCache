@@ -3,22 +3,34 @@
 
 <head>
 	
+	<title>WKWebView Cache Demo</title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">  
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
 	<script src="./service-worker.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 	<script src="./demo.js?v=1"></script>
+
 	<link rel="manifest" href="manifest.json">
-	
+	<link rel="stylesheet" href="./demo.css?v=1" type="text/css">
+
 </head>
 
 <body>
 
-	<div style="margin-top:20px">
-		<label>Enter some text :</label>
+	<div>
+		<label>Enter some text</label>
 		<input id="uiTxt" value="Version 1">
+	</div>
+	<div>
 		<button id="uiGen">Generate PDF</button>
 	</div>
-	<div style="margin-top:20px">
+	<div>
 		<label>Randomize file name</label>
 		<input type="checkbox" id="uiRnd">
 	</div>
