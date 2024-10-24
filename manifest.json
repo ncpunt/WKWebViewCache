@@ -1,0 +1,30 @@
+{
+  "name": "WKWebViewCache",
+  "short_name": "WKWVC",
+  "theme_color": "#111943",
+  "background_color": "#FFFFFF",
+  "display": "fullscreen",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "WKWebViewCache",
+  "description": "Demo app for debugging WKWebView Cache ",
+  "lang": "en",
+  "dir": "auto",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "minimal-ui",
+    "browser",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "dev"
+  ]
+}
